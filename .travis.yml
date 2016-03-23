@@ -12,7 +12,4 @@ rvm:
 - 2.2
 - 2.3.0
 cache: bundler
-before_install:
-- wget https://dl.dropboxusercontent.com/u/62784372/huginn_agent-0.2.gem
-- gem install huginn_agent-0.2.gem
 script: bundle exec rake
