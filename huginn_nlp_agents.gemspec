@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["https://github.com/kreuzwerker/huginn_nlp_agents"]
   spec.summary       = %q{Agents for doing natural language processing use the FREME and DKT APIs.}
   spec.homepage      = "https://github.com/kreuzwerker/huginn_nlp_agents"
-  spec.license       = "proprietary"
+  spec.license       = "Apache License 2.0"
 
   spec.files         = Dir['LICENSE.txt', 'lib/**/*']
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
